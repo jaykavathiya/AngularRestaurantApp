@@ -12,3 +12,13 @@ Communication using $resource and promises
 Filters
 Responsive web design
 
+//How to run this project using JSON-Server
+--> Install json-server using Node Package Manager(NPM)
+--> Run npm install json-server -g
+--> Create json-server folder in your computer(any locations)
+--> Download this file: https://d18ky98rnyall9.cloudfront.net/_010a857c8cef22288ddc1db865c30e54_db.json?Expires=1500768000&Signature=b6Dn592CA5c-idrUl4s6qsi2LcNzP~P61MjSwfhK7yBZVM3F0jLH2awp376QGerZrOI5sjv0hosPPEegBtrwyC7pW0hqoAOOW-tlbr4vHP2kDU7vN-3tEXoYu7AMXO5HCirwORmH94KaWN8TTalA64saXJ3FM0q~vIwpgvS1Brc_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A and
+    put db.json into json-server folder
+--> Move to json-server folder through your terminal and run  json-server --watch db.json.It will start the server
+--> In browser open localhost:3000
+
+
